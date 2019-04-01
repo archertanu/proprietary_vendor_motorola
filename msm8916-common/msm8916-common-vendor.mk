@@ -226,6 +226,24 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     QtiTelephonyService
 
+#perf stack
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
+
+PRODUCT_PACKAGES += \
+    QPerformance \
+    UxPerformance
+
 # IMS
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
@@ -264,6 +282,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     ims \
     imssettings \
     imscmlibrary \
