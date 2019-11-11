@@ -139,7 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/merlin/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/merlin/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/merlin/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/motorola/merlin/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/motorola/merlin/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder
