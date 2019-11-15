@@ -229,6 +229,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService
 
 #perf stack
+PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
@@ -240,7 +241,7 @@ PRODUCT_PACKAGES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so
 
 PRODUCT_PACKAGES += \
     QPerformance \
@@ -284,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so
 
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     ims \
     imssettings \
     imscmlibrary \
